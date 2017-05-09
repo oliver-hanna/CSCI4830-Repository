@@ -8,7 +8,7 @@ import unittest
 class TestHello(unittest.TestCase):
     def test_text_match(self):
         expected = "Hello world from Travis CI"
-        self.assertEqual(expected, hello())
+        self.assertEqual(expected, talk())
 
 if __name__ == '__main__':
     unittest.main()
