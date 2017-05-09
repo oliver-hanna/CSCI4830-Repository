@@ -2,7 +2,7 @@
 Tests for HelloWorld program
 """
 
-from hello.py import talk
+from hello import talk
 import unittest
 
 class TestHello(unittest.TestCase):
