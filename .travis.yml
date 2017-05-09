@@ -2,5 +2,7 @@
 language: python
 python:
   - "2.7"
+#install
+install: pip install --user -r requirements.txt
 # command to run tests
-script: python HelloWorldTest.py
+script: python pytest.py
